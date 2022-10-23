@@ -1,0 +1,14 @@
+print("welcome to fate teller")
+
+
+import random
+
+
+user_question = input("\nAsk your question")
+
+random_num = random.randint(1,2)
+
+if random_num == 1:
+    print("yes")
+else:
+    print ("no")
